@@ -13,3 +13,16 @@ print('4 - Sair\n')
 
 opcao_escolhida = input('Escolha uma opção: ')
 print(f'Voce escolheu a opção {opcao_escolhida}')
+
+
+if opcao_escolhida == 1:
+    print('Cadastrar Restaurante')
+
+elif opcao_escolhida == 2:
+    print('Listar Restaurante')
+
+elif opcao_escolhida == 3:
+    print('Ativar Restaurante')
+
+else:
+    print('Finalizar o Programa')
